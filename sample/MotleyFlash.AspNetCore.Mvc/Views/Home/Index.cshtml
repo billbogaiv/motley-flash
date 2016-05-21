@@ -1,0 +1,17 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="row">
+    <h2>Examples</h2>
+    <div class="col-md-12">
+        <h2>Forms</h2>
+        <form asp-controller="Home" asp-action="Post" method="post" >
+            <button class="btn btn-default">POST <i class="glyphicon glyphicon-arrow-right"></i> GET</button>
+        </form>
+    </div>
+    <div class="col-md-12">
+        <h2>Throw exception</h2>
+            <a href="@Url.Action("Index", new { throwException = true })" class="btn btn-default">Throw exception</a>
+    </div>
+</div>

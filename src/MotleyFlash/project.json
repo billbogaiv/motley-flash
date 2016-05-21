@@ -1,0 +1,16 @@
+﻿{
+    "version": "0.1.0-*",
+    "description": "Provides a foundation for managing flash messages.",
+    "authors": [ "Bill Boga" ],
+    "packOptions": {
+        "tags": [ "flash", "message" ],
+        "projectUrl": "https://github.com/billboga/motleyflash/",
+        "licenseUrl": "https://raw.githubusercontent.com/billboga/motleyflash/master/LICENSE"
+    },
+    "dependencies": {
+        "NETStandard.Library": "1.5.0-rc2-24027"
+    },
+    "frameworks": {
+        "netstandard1.1": { }
+    }
+}

@@ -1,0 +1,12 @@
+﻿@model IEnumerable<MotleyFlash.Message>
+
+@foreach (var message in Model)
+{
+    <div class="alert alert-@message.Type.ToLower()" role="alert">
+        @if (!string.IsNullOrWhiteSpace(message.Title))
+        {
+            <strong>@message.Title</strong><text>&nbsp;</text>
+        }
+        @message.Text
+    </div>
+}

@@ -1,0 +1,25 @@
+﻿{
+    "version": "0.1.0-*",
+    "description": "Leverages MotleyFlash and contains useful view helpers for ASP.NET Core.",
+    "authors": [ "Bill Boga" ],
+    "packOptions": {
+        "tags": [ "flash", "message", "asp.net core", "mvc" ],
+        "projectUrl": "https://github.com/billboga/motleyflash/",
+        "licenseUrl": "https://raw.githubusercontent.com/billboga/motleyflash/master/LICENSE",
+        "files": {
+            "mappings": {
+                "content/Views/Shared/Components/MotleyFlash/": "./Views/Shared/Components/MotleyFlash/"
+            }
+        }
+    },
+    "dependencies": {
+        "NETStandard.Library": "1.5.0-rc2-24027",
+        "Microsoft.AspNetCore.Mvc.ViewFeatures": "1.0.0-rc2-final",
+        "MotleyFlash": "0.1.0-*"
+    },
+    "frameworks": {
+        "netstandard1.5": {
+            "imports": "dnxcore50"
+        }
+    }
+}
