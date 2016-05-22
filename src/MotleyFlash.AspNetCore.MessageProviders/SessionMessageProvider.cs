@@ -45,8 +45,6 @@ namespace MotleyFlash.AspNetCore.MessageProviders
                 Encoding.UTF8.GetBytes(JsonConvert.SerializeObject(
                     messages,
                     jsonSerializerSettings)));
-
-            session.CommitAsync();
         }
     }
 }
