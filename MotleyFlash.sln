@@ -24,6 +24,8 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MotleyFlash.AspNetCore.Mvc"
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MotleyFlash.AspNetCore.ViewHelpers", "src\MotleyFlash.AspNetCore.ViewHelpers\MotleyFlash.AspNetCore.ViewHelpers.xproj", "{5D9F22B8-9538-4B21-A8A0-3B1A2F0EDAE5}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MotleyFlash.NetCore.Console", "sample\MotleyFlash.NetCore.Console\MotleyFlash.NetCore.Console.xproj", "{8C9CD14F-20F5-4717-939A-A5313986AAD2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -50,6 +52,10 @@ Global
 		{5D9F22B8-9538-4B21-A8A0-3B1A2F0EDAE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D9F22B8-9538-4B21-A8A0-3B1A2F0EDAE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D9F22B8-9538-4B21-A8A0-3B1A2F0EDAE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C9CD14F-20F5-4717-939A-A5313986AAD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C9CD14F-20F5-4717-939A-A5313986AAD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C9CD14F-20F5-4717-939A-A5313986AAD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C9CD14F-20F5-4717-939A-A5313986AAD2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -60,5 +66,6 @@ Global
 		{E635DEBA-839B-4623-A2DA-49A71919EBB8} = {BD2590AB-1DA8-484D-B2C7-37FD5F2569AA}
 		{9DE45570-1508-4EBE-A054-2EEA889EC672} = {1E0888A6-82E2-42A4-A6E0-D110B73DD075}
 		{5D9F22B8-9538-4B21-A8A0-3B1A2F0EDAE5} = {EBE226D6-3B00-491A-8FAD-5134F3BEB6CA}
+		{8C9CD14F-20F5-4717-939A-A5313986AAD2} = {1E0888A6-82E2-42A4-A6E0-D110B73DD075}
 	EndGlobalSection
 EndGlobal
