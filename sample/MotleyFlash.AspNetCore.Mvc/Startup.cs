@@ -32,8 +32,15 @@ namespace MotleyFlash.AspNetCore.Mvc
             services.AddSession();
 
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+
+            // Use this section if you want to leverage session.
             services.AddScoped(x => x.GetRequiredService<IHttpContextAccessor>().HttpContext.Session);
             services.AddScoped<IMessageProvider, SessionMessageProvider>();
+
+            // Use this section if you want to leverage cookies.
+            //services.AddScoped(x => x.GetRequiredService<IHttpContextAccessor>().HttpContext.Request.Cookies);
+            //services.AddScoped(x => x.GetRequiredService<IHttpContextAccessor>().HttpContext.Response.Cookies);
+            //services.AddScoped<IMessageProvider, CookieMessageProvider>();
 
             services.AddScoped<IMessageTypes>(x =>
             {
