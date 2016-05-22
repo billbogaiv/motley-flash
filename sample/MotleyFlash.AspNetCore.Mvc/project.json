@@ -19,7 +19,7 @@
         "Microsoft.Extensions.Logging.Console": "1.0.0-rc2-final",
         "Microsoft.Extensions.Logging.Debug": "1.0.0-rc2-final",
         "Microsoft.VisualStudio.Web.BrowserLink.Loader": "14.0.0-rc2-final",
-        "MotleyFlash": "0.1.0-*",
+        "MotleyFlash": "0.2.0-*",
         "MotleyFlash.AspNetCore.MessageProviders": "0.1.0-*",
         "Microsoft.AspNetCore.Session": "1.0.0-rc2-final",
         "MotleyFlash.AspNetCore.ViewHelpers": "0.1.0-*"
