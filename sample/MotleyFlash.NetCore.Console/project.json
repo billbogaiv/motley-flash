@@ -1,18 +1,16 @@
 {
-  "version": "1.0.0-*",
-  "buildOptions": {
-    "emitEntryPoint": true
-  },
-
-  "dependencies": {
-    "Microsoft.NETCore.App": {
-        "type": "platform",
-        "version": "1.0.0-rc2-3002702"
+    "version": "1.0.0-*",
+    "buildOptions": {
+        "emitEntryPoint": true
     },
-    "MotleyFlash": "0.1.0-*"
-  },
-
-  "frameworks": {
-    "netcoreapp1.0": { }
-  }
+    "dependencies": {
+        "Microsoft.NETCore.App": {
+            "type": "platform",
+            "version": "1.0.0"
+        },
+        "MotleyFlash": "0.3.0-*"
+    },
+    "frameworks": {
+        "netcoreapp1.0": {}
+    }
 }
