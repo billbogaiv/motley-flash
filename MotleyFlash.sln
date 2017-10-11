@@ -1,30 +1,27 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EBE226D6-3B00-491A-8FAD-5134F3BEB6CA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4813A969-40C9-48B0-A2C5-817DFC88FDCF}"
-	ProjectSection(SolutionItems) = preProject
-		global.json = global.json
-	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{BD2590AB-1DA8-484D-B2C7-37FD5F2569AA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sample", "sample", "{1E0888A6-82E2-42A4-A6E0-D110B73DD075}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MotleyFlash", "src\MotleyFlash\MotleyFlash.xproj", "{580CD48C-A099-4BBB-98F5-DBA6A9345E51}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MotleyFlash", "src\MotleyFlash\MotleyFlash.csproj", "{580CD48C-A099-4BBB-98F5-DBA6A9345E51}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MotleyFlash.AspNetCore.MessageProviders", "src\MotleyFlash.AspNetCore.MessageProviders\MotleyFlash.AspNetCore.MessageProviders.xproj", "{5BFFAEA8-C7F8-47BB-9536-096B4DAB612C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MotleyFlash.AspNetCore.MessageProviders", "src\MotleyFlash.AspNetCore.MessageProviders\MotleyFlash.AspNetCore.MessageProviders.csproj", "{5BFFAEA8-C7F8-47BB-9536-096B4DAB612C}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MotleyFlash.Test", "test\MotleyFlash.Test\MotleyFlash.Test.xproj", "{E635DEBA-839B-4623-A2DA-49A71919EBB8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MotleyFlash.Test", "test\MotleyFlash.Test\MotleyFlash.Test.csproj", "{E635DEBA-839B-4623-A2DA-49A71919EBB8}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MotleyFlash.AspNetCore.Mvc", "sample\MotleyFlash.AspNetCore.Mvc\MotleyFlash.AspNetCore.Mvc.xproj", "{9DE45570-1508-4EBE-A054-2EEA889EC672}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MotleyFlash.AspNetCore.Mvc", "sample\MotleyFlash.AspNetCore.Mvc\MotleyFlash.AspNetCore.Mvc.csproj", "{9DE45570-1508-4EBE-A054-2EEA889EC672}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MotleyFlash.AspNetCore.ViewHelpers", "src\MotleyFlash.AspNetCore.ViewHelpers\MotleyFlash.AspNetCore.ViewHelpers.xproj", "{5D9F22B8-9538-4B21-A8A0-3B1A2F0EDAE5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MotleyFlash.AspNetCore.ViewHelpers", "src\MotleyFlash.AspNetCore.ViewHelpers\MotleyFlash.AspNetCore.ViewHelpers.csproj", "{5D9F22B8-9538-4B21-A8A0-3B1A2F0EDAE5}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MotleyFlash.NetCore.Console", "sample\MotleyFlash.NetCore.Console\MotleyFlash.NetCore.Console.xproj", "{8C9CD14F-20F5-4717-939A-A5313986AAD2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MotleyFlash.NetCore.Console", "sample\MotleyFlash.NetCore.Console\MotleyFlash.NetCore.Console.csproj", "{8C9CD14F-20F5-4717-939A-A5313986AAD2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -67,5 +64,8 @@ Global
 		{9DE45570-1508-4EBE-A054-2EEA889EC672} = {1E0888A6-82E2-42A4-A6E0-D110B73DD075}
 		{5D9F22B8-9538-4B21-A8A0-3B1A2F0EDAE5} = {EBE226D6-3B00-491A-8FAD-5134F3BEB6CA}
 		{8C9CD14F-20F5-4717-939A-A5313986AAD2} = {1E0888A6-82E2-42A4-A6E0-D110B73DD075}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2BCB2B97-5AF1-48C0-A050-34792F8CE0B5}
 	EndGlobalSection
 EndGlobal
