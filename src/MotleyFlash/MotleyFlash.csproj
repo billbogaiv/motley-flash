@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>Provides a foundation for managing flash messages.</Description>
+    <VersionPrefix>0.3.0</VersionPrefix>
+    <Authors>Bill Boga</Authors>
+    <TargetFrameworks>netstandard1.1;net35</TargetFrameworks>
+    <AssemblyName>MotleyFlash</AssemblyName>
+    <PackageId>MotleyFlash</PackageId>
+    <PackageTags>flash;message</PackageTags>
+    <PackageProjectUrl>https://github.com/billboga/motleyflash/</PackageProjectUrl>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/billboga/motleyflash/master/LICENSE</PackageLicenseUrl>
+    <NetStandardImplicitPackageVersion Condition=" '$(TargetFramework)' == 'netstandard1.1' ">1.6.0</NetStandardImplicitPackageVersion>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+  </PropertyGroup>
+
+  <ItemGroup Condition=" '$(TargetFramework)' == 'net35' ">
+    <Reference Include="System" />
+  </ItemGroup>
+
+</Project>
